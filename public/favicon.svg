@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#1abc9c"/>
+
+  <!-- Steno keys - top row (4 keys) -->
+  <rect x="4" y="7" width="5" height="4" rx="1" fill="white"/>
+  <rect x="10" y="7" width="5" height="4" rx="1" fill="white"/>
+  <rect x="17" y="7" width="5" height="4" rx="1" fill="white"/>
+  <rect x="23" y="7" width="5" height="4" rx="1" fill="white"/>
+
+  <!-- Steno keys - bottom row (4 keys) -->
+  <rect x="4" y="13" width="5" height="4" rx="1" fill="white"/>
+  <rect x="10" y="13" width="5" height="4" rx="1" fill="white"/>
+  <rect x="17" y="13" width="5" height="4" rx="1" fill="white"/>
+  <rect x="23" y="13" width="5" height="4" rx="1" fill="white"/>
+
+  <!-- Checkmark -->
+  <path d="M8 22 L13 27 L24 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "StenoProof - AI Transcript Proofreading",
   description: "Professional proofreading for court reporters and stenographers",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

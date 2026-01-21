@@ -17,6 +17,8 @@ export interface ParsedTranscript {
   metadata: {
     fileName: string;
     processedAt: string;
+    isGenericText?: boolean;
+    detectedFormat?: string;
   };
 }
 
@@ -39,6 +41,7 @@ export type ErrorType =
   | "extra_word"
   | "untranslated_steno"
   | "inconsistency"
+  | "needs_review"
   | "other";
 
 export interface ProofreadingResult {

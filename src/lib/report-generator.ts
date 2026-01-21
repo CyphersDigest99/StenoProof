@@ -9,6 +9,7 @@ const ERROR_TYPE_LABELS: Record<ErrorType, string> = {
   extra_word: "Extra/Duplicate Words",
   untranslated_steno: "Untranslated Steno",
   inconsistency: "Inconsistencies",
+  needs_review: "Needs Review",
   other: "Other",
 };
 
